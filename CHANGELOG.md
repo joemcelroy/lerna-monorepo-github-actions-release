@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.2.0](https://github.com/joemcelroy/lerna-monorepo-github-actions-release/compare/v2.0.1...v2.2.0) (2020-08-23)
+
+
+### Features
+
+* **two:** new feature ??? ([7220391](https://github.com/joemcelroy/lerna-monorepo-github-actions-release/commit/72203912af4604d9f9beda4fc00a8e5cf8296ae9))
+
+
+
+
+
 # [2.1.0](https://github.com/joemcelroy/lerna-monorepo-github-actions-release/compare/v2.0.1...v2.1.0) (2020-08-23)
 
 
