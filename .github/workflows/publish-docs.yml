@@ -13,7 +13,7 @@ jobs:
       - name: Install
         run: yarn install
       - name: Build
-        run: yarn run build
+        run: yarn run build-docs
       - uses: amondnet/vercel-action@v19
         with:
           vercel-token: ${{ secrets.VERCEL_TOKEN }} # Required
