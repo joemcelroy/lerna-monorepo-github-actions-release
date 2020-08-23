@@ -23,7 +23,9 @@
     "lib": "lib",
     "test": "test"
   },
-  "scripts": {},
+  "scripts": {
+    "test": "jest --colors"
+  },
   "publishConfig": {
     "access": "public"
   }
