@@ -1,5 +1,11 @@
 name: deploy docs
-on: [pull_request]
+on:
+  push:
+    branches:
+      - master
+  pull_request:
+    branches:
+      - master
 jobs:
   deploy:
     runs-on: ubuntu-latest
@@ -13,3 +19,4 @@ jobs:
           vercel-org-id: ${{ secrets.VERCEL_ORG_ID}} #Required
           vercel-project-id: ${{ secrets.VERCEL_PROJECT_ID}} #Required
           working-directory: ./packages/mono-docs
+          vercel-project-name: mono-docs
