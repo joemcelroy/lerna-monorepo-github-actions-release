@@ -1,0 +1,16 @@
+{
+  "blog": {
+    "allTagsPath": "/blog/tags",
+    "slug": "blog",
+    "name": "blog",
+    "count": 1,
+    "permalink": "/blog/tags/blog"
+  },
+  "docusaurus": {
+    "allTagsPath": "/blog/tags",
+    "slug": "docusaurus",
+    "name": "docusaurus",
+    "count": 1,
+    "permalink": "/blog/tags/docusaurus"
+  }
+}

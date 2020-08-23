@@ -10,7 +10,7 @@ env:
   CI: true
 jobs:
   publish:
-    name: Publish
+    name: Publish Packages
     runs-on: ubuntu-18.04
     steps:
       - name: Checkout
