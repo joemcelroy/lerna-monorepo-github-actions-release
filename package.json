@@ -19,18 +19,18 @@
     ]
   },
   "scripts": {
-    "versionup": "lerna version --conventional-commits --no-git-tag-version",
-    "versionup:patch": "lerna version patch --conventional-commits --no-git-tag-version",
-    "versionup:minor": "lerna version minor --conventional-commits --no-git-tag-version",
-    "versionup:major": "lerna version major --conventional-commits --no-git-tag-version",
+    "versionup": "lerna version --conventional-commits --conventional-graduate --no-git-tag-version",
+    "versionup:patch": "lerna version patch --conventional-commits --conventional-graduate --no-git-tag-version",
+    "versionup:minor": "lerna version minor --conventional-commits --conventional-graduate --no-git-tag-version",
+    "versionup:major": "lerna version major --conventional-commits --conventional-graduate --no-git-tag-version",
     "versionup:pre": "lerna version prerelease --conventional-commits --no-git-tag-version",
     "release": "lerna publish from-package",
     "test": "lerna run test --stream",
     "build-docs": "lerna run build-docs"
   },
   "devDependencies": {
-    "@monorepo-utils/collect-changelog": "^2.2.0",
+    "jest": "^26.4.2",
     "lerna": "^3.20.2",
-    "jest": "^26.4.2"
+    "lerna-changelog": "^1.0.1"
   }
 }
