@@ -1,6 +1,6 @@
 {
   "name": "mono-docs",
-  "version": "3.0.1-alpha.0",
+  "version": "3.1.0",
   "private": true,
   "scripts": {
     "start": "docusaurus start",
